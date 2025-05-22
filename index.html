@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>LONGCODEU</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -55,18 +55,18 @@
           <h1 class="title is-1 publication-title">LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding</h1>
                 <div class="is-size-5 publication-authors">
                   <!-- Paper authors -->
-                  <!-- <span class="author-block">
+                  <span class="author-block">
                     Jia Li, Xuyuan Guo, Lei Li, Kechi Zhang, Ge Li†, Jia Li♂, 
-                    <br>Zhengwei Tao, Fang Liu, Chongyang Tao, Yuqi Zhu, Zhi Jin† -->
+                    <br>Zhengwei Tao, Fang Liu, Chongyang Tao, Yuqi Zhu, Zhi Jin†
                   </span>
                 </div>
 
                 <div class="is-size-5 publication-authors">
-                  <!-- <span class="author-block">
+                  <span class="author-block">
                     Key Lab of High Confidence Software Technology (Peking University), MoE, 
-                    <br>School of Computer Science, Peking University, China -->
-                    <!-- <br>Conferance name and year</span> -->
-                  <!-- <span class="eql-cntrb"><small><br><sup>†</sup>Corresponding authors</small></span> -->
+                    <br>School of Computer Science, Peking University, China
+                    <br>ACL 2025</span>
+                  <span class="eql-cntrb"><small><br><sup>†</sup>Corresponding authors</small></span>
                 </div>
 
                 <div class="column has-text-centered">
@@ -76,42 +76,42 @@
                       <a href="https://arxiv.org/abs/2503.04359v1" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>Arxiv</span>
+                    </a>
+                  </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/pdf/2503.04359" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Paper</span>
                     </a>
                   </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="https://arxiv.org/abs/2503.04359v1" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="longcodeu.github.io" target="_blank"
+                    <a href="https://huggingface.co/datasets/longcodeu/longcodeu-dataset" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fas fa-database"></i>
                     </span>
-                    <span>Code (Coming soon)</span>
+                    <span>Dataset</span>
                   </a>
                 </span>
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="longcodeu.github.io" target="_blank"
+                  <a href="https://huggingface.co/spaces/longcodeu/longcodeu-leaderboard" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fas fa-clipboard-list"></i>
                   </span>
-                  <span>Leaderboard (Coming soon)</span>
+                  <span>Leaderboard</span>
                 </a>
               </span>
             </div>
@@ -143,12 +143,13 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Leaderboard (Coming Soon...)</h2>
-        <div class="content has-text-justified">
-          <p>
-            We will release the leaderboard of LONGCODEU soon.
-          </p>
-      </div>
+        <h2 class="title is-3">Leaderboard</h2>
+        <iframe
+          src="https://longcodeu-longcodeu-leaderboard.hf.space"
+          frameborder="0"
+          width="850"
+          height="450"
+        ></iframe>
     </div>
   </div>
 </section>
@@ -223,7 +224,12 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{li2025longcodeu,
+  title={LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding},
+  author={Li, Jia and Guo, Xuyuan and Li, Lei and Zhang, Kechi and Li, Ge and Tao, Zhengwei and Liu, Fang and Tao, Chongyang and Zhu, Yuqi and Jin, Zhi},
+  journal={arXiv preprint arXiv:2503.04359},
+  year={2025}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
